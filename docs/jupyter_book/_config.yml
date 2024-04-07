@@ -1,0 +1,38 @@
+title: Amadeus technical exercise
+author: François Culière
+logo: logo.png
+
+execute:
+  execute_notebooks: off
+
+bibtex_bibfiles:
+  - references.bib
+
+latex:
+  latex_engine: "katex"
+
+repository:
+  url: xxx
+  path_to_book: docs/jupyter_book
+  branch: master
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution

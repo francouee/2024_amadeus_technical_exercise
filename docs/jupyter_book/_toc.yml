@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: "Question 1. Develop a model to predict the probability of winning an auction..."
+  chapters:
+  - file: machine_learning
+- caption: "References"
+  chapters:
+  - file: references
