@@ -4,8 +4,8 @@
 The goal of the exercise is to **build** a **model** able to **predict** the **probability** of **winning an auction** based on historical bids with:
 * $X$ = Features describing the item to bid on
 * bid = The price paid for the item (denoted $s$ in the following)
-* auctions = The price winning the auction
-* wins = The earnings of a winning the auction
+* auctions = The minimum price needed to win the auction
+* wins = The earning of related to the auctioned item
 
 Before answering the questions, I place **set some context** around the **global problem** we want to solve : **benefits optimization when participating in auctions**.
 
@@ -48,8 +48,9 @@ $$
 E(Z) = \sum_{i=1}^{n} E(W_i \mid X_i, s_i) \ . \ E(V_i \mid X_i - s_i)
 $$
 
+(introduction:auction_formulation)=
 $$
-E(Z) = \sum_{i=1}^{n} p_{x_i, s_i} \ . \ (E(V_i \mid X_i) - s_i) \qquad (2)
+E(Z) = \sum_{i=1}^{n} \ \underbrace{p_{x_i, s_i}}_{\text{Probability to win the auction}} \ . \ \underbrace{(E(V_i \mid X_i) - s_i)}_{\text{auction payoff}} \qquad (2)
 $$
 
 The latter equation highlight the intuitive importance of the **probability** of **winning the auction** for **optimizing** the auctions **benefits**.

@@ -9,7 +9,7 @@ parts:
   - file: EDA
 - caption: "Questions"
   chapters:
-  - file: question_1
+  - file: questions
 - caption: "References"
   chapters:
   - file: references
