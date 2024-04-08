@@ -12,7 +12,7 @@ latex:
   latex_engine: "katex"
 
 repository:
-  url: xxx
+  url: https://github.com/francouee/2024_amadeus_technical_exercise
   path_to_book: docs/jupyter_book
   branch: master
 

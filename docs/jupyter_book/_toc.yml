@@ -4,9 +4,12 @@
 format: jb-book
 root: intro
 parts:
-- caption: "Question 1. Develop a model to predict the probability of winning an auction..."
+- caption: "EDA"
   chapters:
-  - file: machine_learning
+  - file: EDA
+- caption: "Questions"
+  chapters:
+  - file: question_1
 - caption: "References"
   chapters:
   - file: references

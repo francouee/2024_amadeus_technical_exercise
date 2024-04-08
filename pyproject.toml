@@ -4,6 +4,7 @@ version = "0.0.0"
 description = ""
 authors = ["Culière François <francois.culiere@gmail.com>"]
 readme = "README.md"
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -15,6 +16,7 @@ sphinxcontrib-mermaid = "^0.9.2"
 statsmodels = "^0.14.1"
 scikit-learn = "^1.4.1.post1"
 nb-js-diagrammers = "^0.0.9"
+pyhocon = "^0.3.60"
 
 
 [build-system]

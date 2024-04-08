@@ -2449,6 +2449,22 @@ plugins = ["importlib-metadata"]
 windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "pyhocon"
+version = "0.3.60"
+description = "HOCON parser for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyhocon-0.3.60.tar.gz", hash = "sha256:ea18520ea126981e5320a72281f1a5fef2c27923f70cc54e1bd241c26525fd4b"},
+]
+
+[package.dependencies]
+pyparsing = {version = ">=2,<4", markers = "python_version >= \"3.0\""}
+
+[package.extras]
+duration = ["python-dateutil (>=2.8.0)"]
+
+[[package]]
 name = "pyparsing"
 version = "3.1.2"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -3858,4 +3874,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "061637b737c936a63f89e8183ffa19f93ff68c79145d43e38a374556ae6dfdad"
+content-hash = "64c68c13eefd079e1b572ba5c01f6822f65c45052a7cade9788d2091a409b3f3"
