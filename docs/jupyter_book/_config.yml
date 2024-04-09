@@ -19,6 +19,10 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
+  extra_footer: |
+    <div>
+        <script async data-id="101449706" src="//static.getclicky.com/js"></script>
+    </div>
 
 sphinx:
   extra_extensions:
